@@ -1,3 +1,5 @@
+import 'package:art_photo/pages/login.dart';
+import 'package:art_photo/pages/sign_up.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/splash_page.dart';
@@ -74,7 +76,7 @@ class HomePage extends StatelessWidget {
                     minWidth: double.infinity,
                     height: 60,
                     onPressed: () {
-                      // Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
                     },
                     // defining the shape
                     shape: RoundedRectangleBorder(
@@ -92,7 +94,7 @@ class HomePage extends StatelessWidget {
                     minWidth: double.infinity,
                     height: 60,
                     onPressed: () {
-                      // Navigator.push(context, MaterialPageRoute(builder: (context)=> SignupPage()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=> SignupPage()));
                     },
                     color: Color(0xff0095FF),
                     shape: RoundedRectangleBorder(
