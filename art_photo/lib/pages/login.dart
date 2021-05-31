@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class LoginPage extends StatelessWidget {
-
+//todo подписи полей ввода вручную
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
